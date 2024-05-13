@@ -1,0 +1,489 @@
+*{
+    font-family: Outfit;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    width: 1500px;
+}
+
+.logo{
+    flex:1;
+    border-right: 1px solid #cccccc65;
+}
+
+.logo img{
+    margin-right: 20px;
+    width: 200px;
+    height: 90px;
+}
+
+.menu_options{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+aside ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.diferenciado{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.diferenciado img{
+    margin-right: 8px;
+}
+
+aside ul{
+    display: flex;
+    margin-left: 25px;
+}
+
+aside .bottommenu{
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+.menu_options_2{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(30, 30, 30);
+    margin-bottom: 5px;
+}
+
+.espace_inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.menu_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sale{
+    flex: 2;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hashtag{
+    margin-left: 20px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 1500px;
+    justify-content: center;
+}
+
+.banner{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem_tenis{
+   flex: 1;
+}
+
+.imagem_tenis img{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 80%;
+    height: 450px;
+    background-color: black;
+}
+
+.publicidade{
+    flex: 1;
+}
+
+.layout_divulgacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*-------------------------------------------------------------------*/
+.espaço_do_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px 0 2px 20px;
+}
+
+.title{
+    font-size: 30px;
+    color: #000;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.title2{
+    font-size: 13px;
+    color: #000;
+    margin: 0px;
+    font-family: arial;
+    text-transform: uppercase;
+}
+/*-------------------------------------------------------------------*/
+.espace_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px 15px 20px;
+}
+
+.valor_produto{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.local_producao{
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+}
+/*-------------------------------------------------------------------*/
+.espace_size{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px 15px 20px;
+}
+
+.caixa_escolha{
+    margin-top: 5px;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid #000000ba;
+}
+/*-------------------------------------------------------------------*/
+.espace_bottom_buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px 1px 20px;
+}
+
+.espace_bottom_buy a{
+    text-decoration: none;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    background-color: #3a3a3a;
+}
+
+.adicionar_carrinho{
+    font-size: 14px;
+    color: #fff;
+}
+/*-------------------------------------------------------------------*/
+.espace_descri{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 15px 20px;
+}
+
+.descri_local{
+    width: 300px;
+}
+
+.text_descri{
+    font-size: 15px;
+    color: #000;
+}
+/*-------------------------------------------------------------------*/
+.espace_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 15px 20px;
+}
+
+.icone_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+    height: 40px;
+}
+
+.espace_social img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.link_image{
+    text-decoration: none;
+}
+/*-------------------------------------------------------------------*/
+
+#geral{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+    width: 1500px;
+    margin-top: 30px;
+}
+
+.outros_modelos{
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.outros_modelos h5{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.imagens_boots{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    margin-top:10px;
+    border-bottom: 2px solid #cccccc7e;
+}
+
+.imagens_boots img{
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+}
+
+.link_outros_modelos{
+    text-decoration: none;
+}
+/*-------------------------------------------------------------------*/
+#first_rodape{
+    display: flex;
+    flex-direction: row;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 1500px;
+    margin-top: 20px;
+}
+
+.text_divul_email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.text_divul_email p{
+    margin: 0px;
+    font-size: 30px;
+}
+
+.text_divul_email h6{
+    font-size: 15px;
+}
+.espace_text_and_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo_email{
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 2px solid #505050a4;
+}
+
+.campo_bottom{
+    width: 70px;
+    height: 34px;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 0px;
+    background-color: #3a3a3a;
+    color: #fff;
+    border: 2px solid #505050a4;
+}
+/*-------------------------------------------------------------------*/
+
+.redes_sociais{
+    display: flex;
+}
+
+.campo_imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.campo_imagens img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+/*-------------------------------------------------------------------*/
+.tel_text{
+    display: flex;
+}
+
+.text_contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:100px;
+}
+
+.contato_anun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefone_anun{
+    font-size: 20px;
+}
+
+.palavra_anun{
+    margin: 0px;
+}
+
+.palavre_anun2{
+    margin: 0px;
+}
+
+.palavre_anun3{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.palavra_anun4{
+    margin:0px;
+}
+
+.telefone_anun{
+    margin:20px 0 0px 0;
+}
+/*-------------------------------------------------------------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.container6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 70px;
+}
+
+.copyright h5{
+    color: #fff;
+    font-size: 15px;
+}
+
